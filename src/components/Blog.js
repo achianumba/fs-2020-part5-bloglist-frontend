@@ -4,7 +4,7 @@ const Blog = ({ blog }) => (
   <div className="blog">
     <h3 className="blog-title">{blog.title}</h3>
     <p className="blog-author">
-      {blog.author}{" "}
+      {blog.author}
       <button className="toggle-blog-collapsed-details">View</button>
     </p>
     <div className="blog-collapsed-details" hidden>
